@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "eslint": "8.47.0",
@@ -18,5 +19,11 @@
     "react-icons": "^4.10.1",
     "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0"
+  },
+   "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3"
   }
 }
